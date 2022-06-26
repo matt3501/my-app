@@ -2,7 +2,9 @@
 
 ![Layout Diagram](./nomnoml.svg)
 
-
+## Dev Setup
+1. Ran the steps in [Create React App](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
+1. Downloaded the chrome plugin for inspecting sites (here.)[https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en]
 
 This tutorial is based on the hello world from [reactjs.org](https://reactjs.org/tutorial/tutorial.html)
 
