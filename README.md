@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-![Alt text](https://nomnoml.com/image.svg?source=%5B%3Cactor%3EEmbiber%5D%0A%5BFilter%20by%7C*%20Cocktail%20Name%3B*%20Ingredient%5D%0A%5BCatalog%7C*%20Classics%3B*%20Favorites%3B*%20Greg%20from%20H2D%5D%0A%5BSelectors%7C*%20Base%20Ingredient%20(Optional)%3B*%20Style%20(Optional)%5D%0A%0A%5BEmbiber%5D-%3E%5BLanding%20page%5D%0A%0A%5BLanding%20page%5D-%3E%5BSearch%5D%0A%5BLanding%20page%5D-%3E%5BBrowse%5D%0A%5BLanding%20page%5D-%3E%5BUrban%20Spoon%5D%0A%0A%5BSearch%5D-%3E%5BFilter%20by%5D%0A%5BBrowse%5D-%3E%5BCatalog%5D%0A%5BUrban%20Spoon%5D-%3E%5BSelectors%5D%0A%0A%5BFilter%20by%5D-%3E%5BCocktail%20List%5D%0A%5BCatalog%5D-%3E%5BCocktail%20List%5D%0A%0A%5BCocktail%20List%5D-%3E%5BCocktail%20Recipe%5D%0A%5BSelectors%5D-%3E%5BCocktail%20Recipe%5D)
+![Layout Diagram](./nomnoml.svg)
 
 
 
