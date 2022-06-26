@@ -20,7 +20,7 @@ class Square extends React.Component {
       super(props);
       this.state = {
         squares: Array(Array(3).fill(null),Array(3).fill(null),Array(3).fill(null)),
-        isX: true
+        nextPlayer: 'X'
       };
     }
 
@@ -34,15 +34,19 @@ class Square extends React.Component {
     }
 
     handleClick(x, y) {
-      let entry = this.state.isX ? 'X' : 'O';
       const squares = this.state.squares.slice();
-      squares[x][y]=entry;
 
-      this.setState({squares: squares, isX: !this.state.isX});
+      if (squares[x][y] != null) {return;}
+
+      squares[x][y]=this.state.nextPlayer;
+
+      let nextEntry = this.state.nextPlayer === 'X' ? 'O' : 'X';
+
+      this.setState({squares: squares, nextPlayer: nextEntry});
     }
   
     render() {
-      const status = 'Next player: X';
+      const status = 'Next player: ' + this.state.nextPlayer;
   
       return (
         <div>
