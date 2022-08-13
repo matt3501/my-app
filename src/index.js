@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
 
 class Square extends React.Component {
     render() {
@@ -66,6 +68,9 @@ class Square extends React.Component {
             {this.renderSquare(2, 1)}
             {this.renderSquare(2, 2)}
           </div>
+          <Button as="a" variant="primary">
+            Button as link
+          </Button>
         </div>
       );
     }

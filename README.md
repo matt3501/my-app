@@ -10,6 +10,8 @@ This tutorial is based on the hello world from [reactjs.org](https://reactjs.org
 
 It was then bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Styling available from [react-bootstrap](npm install react-bootstrap bootstrap)
+
 ## Available Scripts
 
 In the project directory, you can run:
